@@ -1,7 +1,7 @@
 // client/src/App.jsx
 import React, { useEffect, useState, useRef } from "react";
 
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket("wss://livepollbattle.onrender.com");
 
 function App() {
     const [username, setUsername] = useState("");
